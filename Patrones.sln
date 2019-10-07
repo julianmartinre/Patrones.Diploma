@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Strategy", "Patron.S
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.ChainOfResponsability", "Patron.ChainOfResponsability\Patron.ChainOfResponsability.vbproj", "{E0FA1BAC-7F3B-4DED-B9BE-39C983DD997E}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Observer", "Patron.Observer\Patron.Observer.vbproj", "{DC53B85F-A37E-4FC8-BE58-6BFE8A1F0BF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E0FA1BAC-7F3B-4DED-B9BE-39C983DD997E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0FA1BAC-7F3B-4DED-B9BE-39C983DD997E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0FA1BAC-7F3B-4DED-B9BE-39C983DD997E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC53B85F-A37E-4FC8-BE58-6BFE8A1F0BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC53B85F-A37E-4FC8-BE58-6BFE8A1F0BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC53B85F-A37E-4FC8-BE58-6BFE8A1F0BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC53B85F-A37E-4FC8-BE58-6BFE8A1F0BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
