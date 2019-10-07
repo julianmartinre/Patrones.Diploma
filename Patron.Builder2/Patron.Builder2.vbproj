@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42DCD25C-A5E7-496C-8DBC-6E9D9CA47B5A}</ProjectGuid>
+    <ProjectGuid>{F6D07E8F-5F2A-4142-A2BF-6CD51E3CC534}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Patron.Builder.My.MyApplication</StartupObject>
-    <RootNamespace>Patron.Builder</RootNamespace>
-    <AssemblyName>Patron.Builder</AssemblyName>
+    <StartupObject>Patron.Builder2.My.MyApplication</StartupObject>
+    <RootNamespace>Patron.Builder2</RootNamespace>
+    <AssemblyName>Patron.Builder2</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Patron.Builder.xml</DocumentationFile>
+    <DocumentationFile>Patron.Builder2.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Patron.Builder.xml</DocumentationFile>
+    <DocumentationFile>Patron.Builder2.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,7 +72,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregado.vb" />
+    <Compile Include="Auto.vb" />
+    <Compile Include="AutoBuilder.vb" />
+    <Compile Include="AutoBuilderFiatPalio.vb" />
+    <Compile Include="AutoBuilderFiatSiena.vb" />
+    <Compile Include="AutoBuilderFordFiesta.vb" />
+    <Compile Include="AutoBuilderFordFocus.vb" />
+    <Compile Include="Concesionaria.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +86,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Masa.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -96,13 +101,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Pizza.vb" />
-    <Compile Include="PizzaBuilder.vb" />
-    <Compile Include="PizzaItalianaBuilder.vb" />
-    <Compile Include="PizzaLightBuilder.vb" />
-    <Compile Include="PizzaMuzzaBuilder.vb" />
-    <Compile Include="Pizzeria.vb" />
-    <Compile Include="Salsa.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">

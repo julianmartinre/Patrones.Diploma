@@ -1,5 +1,5 @@
 ﻿Public Class Pizza
-    Private _masa As Masa
+    Private _masa As New Masa
     Public Property Masa() As Masa
         Get
             Return _masa
@@ -8,7 +8,7 @@
             _masa = value
         End Set
     End Property
-    Private _salsa As Salsa
+    Private _salsa As New Salsa
     Public Property Salsa() As Salsa
         Get
             Return _salsa
@@ -17,7 +17,7 @@
             _salsa = value
         End Set
     End Property
-    Private _agregado As Agregado
+    Private _agregado As New Agregado
     Public Property Agregado() As Agregado
         Get
             Return _agregado
