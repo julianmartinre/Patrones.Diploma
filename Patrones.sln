@@ -29,6 +29,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Observer4", "Patron.
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Observer5", "Patron.Observer5\Patron.Observer5.vbproj", "{7728A69B-9A06-4A21-95F4-BF5C139CFC18}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.StateObserver", "Patron.StateObserver\Patron.StateObserver.vbproj", "{B6835430-1AD7-4DAE-9D97-3559A0E2CFC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7728A69B-9A06-4A21-95F4-BF5C139CFC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7728A69B-9A06-4A21-95F4-BF5C139CFC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7728A69B-9A06-4A21-95F4-BF5C139CFC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6835430-1AD7-4DAE-9D97-3559A0E2CFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6835430-1AD7-4DAE-9D97-3559A0E2CFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6835430-1AD7-4DAE-9D97-3559A0E2CFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6835430-1AD7-4DAE-9D97-3559A0E2CFC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
