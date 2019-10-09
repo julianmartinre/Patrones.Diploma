@@ -7,8 +7,11 @@
         'Iniciando el trámite.
         unaPersona.IniciarTramite(1)
 
+        unTramite.AgregarObservador(unaPersona)
+
         'Finalizo el trámite.
         unaPersona.FinalizarTramite(1)
+
 
     End Sub
 End Class

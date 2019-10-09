@@ -1,4 +1,7 @@
-﻿Public Class Persona
+﻿Imports Patron.StateObserver
+
+Public Class Persona
+    Implements IObserver
     Private _nombre As String
     Public Property Nombre() As String
         Get
@@ -28,5 +31,13 @@
 
     Public Sub FinalizarTramite(id As Integer)
         _tramites.Find(Function(x) x.Id = id).Estado = New EstadoFinalizado
+    End Sub
+
+    Public Sub CancelarTramite(id As Integer)
+        _tramites.Find(Function(x) x.Id = id).Estado = New EstadoCancelado
+    End Sub
+
+    Public Sub Actualizar(t As Tramite) Implements IObserver.Actualizar
+        MsgBox("Cambio el estado de un tramite.")
     End Sub
 End Class

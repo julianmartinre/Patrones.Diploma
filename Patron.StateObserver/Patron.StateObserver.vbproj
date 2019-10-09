@@ -98,6 +98,7 @@
     <Compile Include="Observer\IObserver.vb" />
     <Compile Include="Persona.vb" />
     <Compile Include="State\Estado.vb" />
+    <Compile Include="State\EstadoCancelado.vb" />
     <Compile Include="State\EstadoFinalizado.vb" />
     <Compile Include="State\EstadoIniciado.vb" />
     <Compile Include="State\EstadoSinIniciar.vb" />
