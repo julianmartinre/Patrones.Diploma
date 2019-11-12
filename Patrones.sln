@@ -49,6 +49,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Flyweight4", "Patron
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Facade2", "Patron.Facade2\Patron.Facade2.vbproj", "{4C30D749-496D-4FEC-997F-3D2DAF032327}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Patron.Proxy2", "Patron.Proxy2\Patron.Proxy2.vbproj", "{93950139-18F3-488C-B615-20DD2D6311BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{4C30D749-496D-4FEC-997F-3D2DAF032327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C30D749-496D-4FEC-997F-3D2DAF032327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C30D749-496D-4FEC-997F-3D2DAF032327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93950139-18F3-488C-B615-20DD2D6311BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93950139-18F3-488C-B615-20DD2D6311BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93950139-18F3-488C-B615-20DD2D6311BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93950139-18F3-488C-B615-20DD2D6311BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
