@@ -1,4 +1,4 @@
-﻿Public Class Plataforma
+﻿Public MustInherit Class Plataforma
     Public Sub New(a As IArquitectura)
         arquitectura = a
     End Sub
